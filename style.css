@@ -1,0 +1,15 @@
+h1 { margin-top: 1em; }
+h2 { margin-top: 1em; }
+
+.container .btn-blah {
+    text-align: left;
+    background-color: #70a2dc;
+    color: white;
+    border: solid 1px transparent;
+}
+.container .btn-blah > .active {
+    background-color: #0062cc;
+}
+.container .btn-blah.active {
+    border-color: #0062cc;
+}
